@@ -1,13 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.c764a3f1.css",
-    "main.js": "/static/js/main.792ec60a.js",
+    "main.js": "/static/js/main.aecdda70.js",
+    "static/media/website.png": "/static/media/website.12d6724fecfde67c1f77.png",
+    "static/media/ucsc_aerial.png": "/static/media/ucsc_aerial.54fc18984ba90f57f989.png",
+    "static/media/profile.png": "/static/media/profile.7a2a09561acf6c3327ed.png",
+    "static/media/slugmap.png": "/static/media/slugmap.52e61057e813195348a2.png",
+    "static/media/insaneink_logo.png": "/static/media/insaneink_logo.b0f3b9223426d8a73991.png",
+    "static/media/baseballbuddies_logo.png": "/static/media/baseballbuddies_logo.ae3463711924893bfc13.png",
+    "static/media/tabulator.png": "/static/media/tabulator.3dd7df55d5a357a629b7.png",
     "index.html": "/index.html",
+    "static/media/description.txt": "/static/media/description.8af264a7350721fdb87d.txt",
     "main.c764a3f1.css.map": "/static/css/main.c764a3f1.css.map",
-    "main.792ec60a.js.map": "/static/js/main.792ec60a.js.map"
+    "main.aecdda70.js.map": "/static/js/main.aecdda70.js.map"
   },
   "entrypoints": [
     "static/css/main.c764a3f1.css",
-    "static/js/main.792ec60a.js"
+    "static/js/main.aecdda70.js"
   ]
 }
