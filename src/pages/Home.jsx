@@ -2,12 +2,24 @@ import { Link } from 'react-router-dom';
 import AppBanner from '../components/shared/AppBanner';
 import ProjectsGrid from '../components/projects/ProjectsGrid';
 import { ProjectsProvider } from '../context/ProjectsContext';
+import ExperiencesGrid from '../components/experiences/ExperiencesGrid';
+import { ExperiencesProvider } from '../context/ExperiencesContext';
 import Button from '../components/reusable/Button';
+
+import Timeline from '../components/reusable/Timeline';
 
 const Home = () => {
 	return (
 		<div className="container mx-auto">
 			<AppBanner></AppBanner>
+
+			<div className="py-5 sm:py-10 mt-5 sm:mt-10">
+				<p className="text-center font-general-medium text-2xl sm:text-4xl mt-5 text-ternary-dark dark:text-ternary-light">
+					Experience
+				</p>
+				<p className="font-general-medium text-2xl sm:text-4xl mt-1 text-ternary-dark dark:text-ternary-light">2023</p>
+				<Timeline />
+			</div>
 
 			<ProjectsProvider>
 				<ProjectsGrid></ProjectsGrid>

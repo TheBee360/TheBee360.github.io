@@ -8,6 +8,7 @@ const FormInput = ({
 	inputName,
 	placeholderText,
 	ariaLabelName,
+	disabled
 }) => {
 	return (
 		<div className="font-general-regular mb-4">
@@ -25,6 +26,7 @@ const FormInput = ({
 				placeholder={placeholderText}
 				aria-label={ariaLabelName}
 				required
+				disabled={disabled}
 			/>
 		</div>
 	);

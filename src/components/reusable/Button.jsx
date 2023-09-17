@@ -1,5 +1,10 @@
-function Button({ title }) {
-	return <button>{title}</button>;
+function Button({ title, disabled }) {
+	return (
+		<button
+			disabled={disabled}
+		
+		>{title}</button>
+	)
 }
 
 export default Button;

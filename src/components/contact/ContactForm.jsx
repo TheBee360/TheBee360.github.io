@@ -2,12 +2,15 @@ import Button from '../reusable/Button';
 import FormInput from '../reusable/FormInput';
 
 const ContactForm = () => {
+	// Disabled for now.
+	const isDisabled = true;
 	return (
 		<div className="w-full lg:w-1/2">
 			<div className="leading-loose">
 				<form
 					onSubmit={(e) => {
 						e.preventDefault();
+						alert("This contact form is currently disabled, please refer to contact details on the right.");
 					}}
 					className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
 				>
@@ -22,6 +25,7 @@ const ContactForm = () => {
 						inputName="name"
 						placeholderText="Your Name"
 						ariaLabelName="Name"
+						disabled={isDisabled}
 					/>
 					<FormInput
 						inputLabel="Email"
@@ -31,6 +35,7 @@ const ContactForm = () => {
 						inputName="email"
 						placeholderText="Your email"
 						ariaLabelName="Email"
+						disabled={isDisabled}
 					/>
 					<FormInput
 						inputLabel="Subject"
@@ -40,6 +45,7 @@ const ContactForm = () => {
 						inputName="subject"
 						placeholderText="Subject"
 						ariaLabelName="Subject"
+						disabled={isDisabled}
 					/>
 
 					<div className="mt-6">
@@ -56,6 +62,7 @@ const ContactForm = () => {
 							cols="14"
 							rows="6"
 							aria-label="Message"
+							disabled={isDisabled}
 						></textarea>
 					</div>
 
@@ -64,6 +71,7 @@ const ContactForm = () => {
 							title="Send Message"
 							type="submit"
 							aria-label="Send Message"
+							disabled={isDisabled}
 						/>
 					</div>
 				</form>

@@ -1,5 +1,5 @@
 const selectOptions = [
-	'Web Application',
+	'Astronomy, Space',
 	'Mobile Application',
 	'UI/UX Design',
 	'Branding',

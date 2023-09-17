@@ -1,17 +1,17 @@
 import { useState, createContext } from 'react';
 import { projectsData } from '../data/projects';
 
-// Create projects context
+// Create Projects context
 export const ProjectsContext = createContext();
 
-// Create the projects context provider
+// Create the Projects context provider
 export const ProjectsProvider = (props) => {
-	const [projects, setProjects] = useState(projectsData);
+	const [Projects, setProjects] = useState(projectsData);
 	const [searchProject, setSearchProject] = useState('');
 	const [selectProject, setSelectProject] = useState('');
 
-	// Search projects by project title
-	const searchProjectsByTitle = projects.filter((item) => {
+	// Search Projects by Project title
+	const searchProjectsByTitle = Projects.filter((item) => {
 		const result = item.title
 			.toLowerCase()
 			.includes(searchProject.toLowerCase())
@@ -22,8 +22,8 @@ export const ProjectsProvider = (props) => {
 		return result;
 	});
 
-	// Select projects by project category
-	const selectProjectsByCategory = projects.filter((item) => {
+	// Select Projects by Project category
+	const selectProjectsByCategory = Projects.filter((item) => {
 		let category =
 			item.category.charAt(0).toUpperCase() + item.category.slice(1);
 		return category.includes(selectProject);
@@ -32,7 +32,7 @@ export const ProjectsProvider = (props) => {
 	return (
 		<ProjectsContext.Provider
 			value={{
-				projects,
+				Projects,
 				setProjects,
 				searchProject,
 				setSearchProject,

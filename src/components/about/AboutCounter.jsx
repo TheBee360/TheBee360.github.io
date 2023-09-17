@@ -2,10 +2,10 @@ import { useCountUp } from 'react-countup';
 import CounterItem from './CounterItem';
 
 const AboutCounter = () => {
-	useCountUp({ ref: 'experienceCounter', end: 12, duration: 2 });
-	useCountUp({ ref: 'githubStarsCounter', end: 20, duration: 2 });
+	useCountUp({ ref: 'experienceCounter', end: 1, duration: 2 });
+	useCountUp({ ref: 'degreeCounter', end: 1, duration: 2 });
 	useCountUp({ ref: 'feedbackCounter', end: 92, duration: 2 });
-	useCountUp({ ref: 'projectsCounter', end: 77, duration: 2 });
+	useCountUp({ ref: 'projectsCounter', end: 5, duration: 2 });
 
 	return (
 		<div className="mt-10 sm:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm">
@@ -14,24 +14,28 @@ const AboutCounter = () => {
 					title="Years of experience"
 					counter={<span id="experienceCounter" />}
 					measurement=""
+					prefix="<"
 				/>
 
 				<CounterItem
-					title="Stars on GitHub"
-					counter={<span id="githubStarsCounter" />}
-					measurement="k+"
+					title="Degrees Achieved"
+					counter={<span id="degreeCounter" />}
+					measurement="+"
+					prefix=""
 				/>
 
 				<CounterItem
 					title="Positive feedback"
 					counter={<span id="feedbackCounter" />}
 					measurement="%"
+					prefix=""
 				/>
 
 				<CounterItem
 					title="Projects completed"
 					counter={<span id="projectsCounter" />}
-					measurement="%"
+					measurement=""
+					prefix=""
 				/>
 			</div>
 		</div>

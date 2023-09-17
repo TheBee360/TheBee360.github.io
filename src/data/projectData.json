@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Key Space",
+        "publishDate": "Jul 23, 2023",
+        "tags": "Distributed Systems",
+        "image": [
+            "../images/ui-project-1.jpg",
+            "../images/web-project-2.jpg",
+            "../images/mobile-project-2.jpg"
+        ],
+        "position": "Backend Development",
+        "dates": "Jan 2023 - Mar 2023",
+        "objective": "Collaborated on a quorum-based distributed system that serves as a partition-tolerant, available Key-Value Store. (KVS)",
+        "technologies": ["ExpressJS", "NodeJS", "OpenAPI", "Docker"],
+        "summary": ["During my junior year of college, I had the opportunity to take CSE 138: Distributed Systems. This class was very challenging, in which we learned about practical topics like Time & Asynchrony, Fault Tolerance, Consistency, and Parallelism & Scaleup. Distributed Systems is a rapidly growing field that practically supports most technological advancements to this day, so it was very interesting learning about the different challenges taking place. For example, some of us like to scroll YouTube, or use ChatGPT to figure out the best vacation plan, or use Apple Maps to navigate around the city. The infrastructure supporting the scale and capabilities of these services are all Distributed Systems to some extent.", "With my foundation from CSE 138: Distributed Systems, I was able to apply the skills I learned toward a real-world distributed system. With a team of 3 other individuals, I collaborated on a quorum-based distributed system that serves as a partition-tolerant, available Key-Value Store (KVS). In our project, we employed techniques like Vector Clocks, Periodic Gossiping, and Broadcasts to handle time-sensitive eventual consistency and fault-tolerant causal consistency requirements for our system. In addition, we leveraged Docker Containerization for testing replication and sharding functionality under networking partitions, view changes, and general system activity. From the outside a Key-Value store seems simple to the end user, but it was a great learning experience dealing with challenges with consistency, replication, and learning new tools & technologies like Docker."]
+    },
+    {
+        "title": "Fit Finder",
+        "publishDate": "Jul 23, 2023",
+        "tags": "Full-Stack Website Development",
+        "image": [
+            "../images/ui-project-1.jpg",
+            "../images/web-project-2.jpg",
+            "../images/mobile-project-2.jpg"
+        ],
+        "position": "Backend/API Development",
+        "dates": "Jan 2022 - Feb 2022",
+        "objective": "Built a full-stack web application that inspires people to bring fitness and well-being back into their lives.",
+        "technologies": ["ExpressJS", "NodeJS", "GCP Cloud Firestore"],
+        "summary": ["FitFinder is a project completed during CruzHacks 2022, an annual hackathon at UC Santa Cruz that invites hundreds of students around the world to hack toward social good. Cruzhacks 2022 involved many teams, all working on technological solutions toward various problems and goals. During the pandemic, we (my team) found that people often felt discouraged to exercise. Mental and Physical well-being skyrocketed to levels unseen before, with social interaction unable to take place and fear spreading of the virus. We also noticed that some people were unsure where to start, how to do so properly, and what resources to utilize. Thus, we felt we needed to address this issue and inspire everyone to bring back mental & physical well-being into their lives.", "Our website application FitFinder takes user data points and uses an algorithm to put together a set of exercises that would best fit the user. The user can then choose to save their information by making an account or temporarily have their routine available. For the front-end we decided to use HTML/CSS and ReactJS to render our website accordingly. For the back-end we decided to use NodeJS/ExpressJS to create a REST API and Firebase to store our data components safely in Cloud Firestore. This project was challenging in the sense of time and skills. We came into this project with basically zero experience building full-stack website applications. We had to learn how to use frameworks, dive right into documentation that were often many pages in length, and somehow work together to get our stack talking to each other. Since we all had different skill sets, we ran into many issues getting our REST API to receive and parse requests properly, our front-end markup rendering properly, our Firebase DB authenticated, and much more. In the end, we learned many things: working in a team, learning a complex technology stack, working with industry developer tools, etc. Working with each other was tough, as we had different ways of describing our technical issues and had to work with some sort of standard. Learning React and Node/Express was completely new, but we were glad we got our hands dirty working with these wonderful frameworks. Lastly, thanks to GCP credits we had access to industry tools like Firebase, allowing us to gain valuable experience working with the platform and building something amazing out of that!"]
+    },
+    {
+        "title": "Slug Maps",
+        "publishDate": "Jul 23, 2023",
+        "tags": "Mobile Applications",
+        "image": [
+            "../images/ui-project-1.jpg",
+            "../images/web-project-2.jpg",
+            "../images/mobile-project-2.jpg"
+        ],
+        "position": "Mobile/Backend Development",
+        "dates": "Nov 2021 - Apr 2022",
+        "objective": "Collaborated on a mobile app for the Google Solution Challenge 2021, to help UCSC students navigate sustainable resources around our campus",
+        "technologies": ["Dart", "Flutter", "Google Maps API", "GCP Firebase"],
+        "summary": ["As my second quarter of college began, I felt quite bored of the usual routine. I had gotten so used to attending class, doing work, studying for the next exam, and repeating the process. Especially with the pandemic, I felt the need to meet new people and a great way to do that was to get involved in the UCSC Google Developers Club.", "Getting into a larger group of 4-6 individuals, I joined a team to participate in the Google Solution Challenge 2021. Our project idea was to build an application called \"Slug Maps\" that could help students navigate, be informed of sustainable spots, and be quite resourceful of our vast college campus. This project was rather unique, as we were prompted to use industry developer tools made available by Google. After a period of time spent deciding on what Google Developer Tools to use, we decided that the Google Maps API and Firebase (which we were given access to through Google Cloud) would best serve our needs. For UI/UX Design we were set on using the popular tool Figma, which was extremely efficient and easy to use from a developer standpoint. For the development process, we would be using the IDE Android Studio, which had a mobile device emulator (Android and IOS) for testing purposes.The challenge in this project was mainly learning how to use industry tools/technology. As I went through the wonderful documentation provided by Google on each set of tools, I found myself struggling to grasp an understanding of what I was doing. However, after much experimentation and research, I was able to follow up and get everything set up properly. Throughout the development process, I ran into numerous bugs and errors, mainly in terms of software dependencies, program structure, and authentication. I was in charge of integrating the Google Maps API within our app, which required sufficient knowledge of the authentication process (i.e. API keys), as well as the Flutter Framework. There were certain syntax guidelines in Dart that I was not familiar with in previous languages, so I spent a portion of my time figuring out how code behaved and why. Furthermore, I went above and beyond trying to understand what my team members were doing, so that I can be informed and better prepared of the entire technology stack. This project was definately much more challenging than anything I had done before. Working with industry developer tools was a great experience preparing for the real world and a great opportunity to work on real world solutions. In the end we were able to bring our amazing idea to life, while having fun and meeting new people!"]
+    }
+]

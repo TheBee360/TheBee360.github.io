@@ -1,6 +1,8 @@
-import profileImage from '../../images/profile.jpeg';
+import profileImage from '../../images/profile.png';
 import { useContext } from 'react';
 import AboutMeContext from '../../context/AboutMeContext';
+
+const aboutMeHeader = "Abhi Raghuraman";
 
 const AboutMeBio = () => {
 	const { aboutMe } = useContext(AboutMeContext);
@@ -12,6 +14,9 @@ const AboutMeBio = () => {
 			</div>
 
 			<div className="font-general-regular w-full sm:w-3/4 text-left">
+				<p className="font-general-medium text-lg md:text-xl text-ternary-dark dark:text-ternary-light mb-4">
+						{aboutMeHeader}
+				</p>
 				{aboutMe.map((bio) => (
 					<p
 						className="mb-4 text-ternary-dark dark:text-ternary-light text-lg"
